@@ -421,3 +421,33 @@
         right: 10px;
     }
 }
+
+.post-add-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    .table {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        font-size: 2em;
+        padding-bottom: 1em;
+        width: 80%;
+        &__head,
+        &__body {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            color: #FE9618;
+            font-size: xx-large;
+        }
+        &__body {
+            color: #88919D;
+            li {
+                border: #080C0F dashed .2em;
+            }
+        }
+    }
+}

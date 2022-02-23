@@ -1,0 +1,14 @@
+/*burger-menu*/
+
+@import '_zeroing';
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #1E2227;
+    min-width: 0;
+}
+
+@import '_header';
+@import '_content';
+@import '_footer';
